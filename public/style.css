@@ -1,0 +1,48 @@
+/* Gradient Background */
+body {
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* Blue gradient */
+    color: #fff; /* White text color for better contrast */
+}
+
+/* Adjusting container background for readability */
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    color: #333; /* Dark color for text inside the container */
+    padding-bottom: 20px; /* Increase padding at the bottom of the container */
+}
+
+/* Ensure other elements like input and button are also readable */
+input[type="text"], button {
+    color: #333; /* Dark color for better readability */
+}
+
+/* Animation Styles */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.result-message {
+    animation: fadeIn 0.3s;
+    margin-bottom: 0;
+}
+
+/* Styling for the loading icon */
+.loading-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Top margin for spacing above the icon */
+    margin-bottom: 20px; /* Bottom margin for spacing below the icon */
+}
+
+.loading-icon i { /* Specifically targeting the icon */
+    font-size: 24px; /* Adjust the size of the spinner icon */
+    margin-right: 10px; /* Add right margin to create space between icon and text */
+}
+
+/* Adjust the loading message for better visibility and alignment */
+.loading-message {
+    color: #007bff; /* Bootstrap primary color for consistency */
+}

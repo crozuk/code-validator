@@ -1,0 +1,29 @@
+<<<<<<<<<<<<<<  ✨ Codeium Command ⭐ >>>>>>>>>>>>>>>>
+# Dependency directories
+node_modules/
+
+# Debug log from npm
+npm-debug.log*
+
+# Yarn integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+
+# Dist / build output
+dist/
+build/
+
+# Optional npm cache & logs
+.npm/
+*.log
+
+# Production bundle output
+public/script-obfuscated.js
+public/style.min.css
+
+# System files
+.DS_Store
+Thumbs.db
+<<<<<<<  b6d53e02-a3b6-46d5-9cf4-650c17701c87  >>>>>>>

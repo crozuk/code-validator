@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Code Validator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="mb-4 text-center" style="margin-top: 20px;"><i class="fas fa-barcode"></i> Validate Your Product</h2>
+                <form id="validateForm">
+                    <div class="form-group">
+                        <label for="productCode"><i class="fas fa-key"></i> Product Code</label>
+                        <input type="text" id="productCode" class="form-control" placeholder="Enter Product Code" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Validate <i class="fas fa-check"></i></button>
+                </form>
+                <div id="result" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script-obfuscated.js"></script>
+</body>
+</html>

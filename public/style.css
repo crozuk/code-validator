@@ -9,7 +9,6 @@ body {
     background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
     border-radius: 10px;
     color: #333; /* Dark color for text inside the container */
-    padding-bottom: 20px; /* Increase padding at the bottom of the container */
 }
 
 /* Ensure other elements like input and button are also readable */
